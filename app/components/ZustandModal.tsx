@@ -1,7 +1,7 @@
 import React from 'react';
 import useModalZustandStore from '../hooks/useModalZustandStore';
 
-const Modal = () => {
+const ZustandModal = () => {
   const zustandModal = useModalZustandStore();
 
   if (!zustandModal.isOpen) return null;
@@ -15,4 +15,4 @@ const Modal = () => {
   );
 };
 
-export default Modal;
+export default ZustandModal;
