@@ -1,7 +1,7 @@
 'use client';
 
 import Button from './components/Button';
-import Modal from './components/Modal';
+import ZustandModal from './components/ZustandModal';
 import useModalZustandStore from './hooks/useModalZustandStore';
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Button onClick={onOpenModalClick}>Click me</Button>;
-      <Modal />
+      <ZustandModal />
     </>
   );
 }
