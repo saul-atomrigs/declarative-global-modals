@@ -5,7 +5,7 @@ const ZustandModal = () => {
   const zustandModal = useModalZustandStore();
 
   if (!zustandModal.isOpen) return null;
-  console.log('modal opened!');
+  console.log('ZUSTAND - modal opened!');
 
   return (
     <div className='modal-container'>
