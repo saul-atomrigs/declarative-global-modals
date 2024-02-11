@@ -2,7 +2,7 @@ import { atom, useRecoilState } from 'recoil';
 
 type ModalName = '회원가입' | '깃헙가입' | '구글가입';
 
-const modalStore = atom({
+export const modalStore = atom({
   key: 'modalStore',
   default: {
     회원가입: false,
