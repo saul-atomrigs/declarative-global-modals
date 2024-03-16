@@ -45,7 +45,7 @@ const ZustandModal = () => {
 export default ZustandModal;
 ```
 ```ts
-page.tsx
+// page.tsx
 'use client';
 import Button from './components/Button';
 import ZustandModal from './components/ZustandModal';
